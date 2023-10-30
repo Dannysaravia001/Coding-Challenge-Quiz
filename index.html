@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/CSS/style.css" />
         <title>Coding challenge Quiz</title>
-        </title>
-        <script src="Assets/JS/script.js"></script>
-        <style src="Assets/CSS/style.css"></style>
     </head>
     <body>
         <nav>
             <button type="button" id="highscoresBtn">View Highscores</button>
         </nav>
        <main>
-             <h2 class="welcomePage">Coding Challenge Quiz</h2>
-             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+          <div class="container">
+             <h1>Coding Challenge Quiz</h1>
+               <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button type="button" class="startBtn">Start</button>
+          </div>
         <section>
-            <h2 class="quizPage">question</h2>
-            <ul>
-                <li><button type="button" class="answerBtn">answer1</button></li>
-                <li><button type="button" class="answerBtn">answer2</button></li>
-                <li><button type="button" class="answerBtn">answer3</button></li>
-                <li><button type="button" class="answerBtn">answer4</button></li>
-            </ul>
+            <div id="question-container" class="hide">
+            <h2 id="question">question</h2>
+              <button type="button" class="answerBtn">Answer 1</button><br>
+              <button type="button" class="answerBtn">Answer 2</button><br>
+              <button type="button" class="answerBtn">Answer 3</button><br>
+              <button type="button" class="answerBtn">Answer 4</button><br>
+            </div>
         </section>
-    </main> 
+     </main>
+     <script src="Assets/JS/script.js"></script> 
     </body>
 </html>
