@@ -1,24 +1,38 @@
 * {
     box-sizing: border-box;
-}
+  }
+  
 main {
     width: 700px;
     margin: auto;
 }
+
 h1 {
     font-size: 36px;
 }
+
 h2 {
-    font-size: 36px;
+    font-size: 32px;
 }
+
 h3 {
     font-style: italic;
     color: gray;
     text-align: left;
+}
+
+#head {
+   text-align: center;
 }
 .highscoresBtn {
     color: blue;
     background-color: white;
     border: none;
     font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 350px;
+    }
 }
