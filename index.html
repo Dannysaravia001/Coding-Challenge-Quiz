@@ -10,19 +10,24 @@
             <button type="button" id="highscoresBtn">View Highscores</button>
         </nav>
        <main>
-          <div class="container">
+          <div>
              <h1>Coding Challenge Quiz</h1>
                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            <button type="button" class="startBtn">Start</button>
+            <button type="button" class="startBtn" id="startTime">Start</button>
           </div>
         <section>
-            <div id="question-container" class="hide">
-            <h2 id="question">question</h2>
-              <button type="button" class="answerBtn">Answer 1</button><br>
-              <button type="button" class="answerBtn">Answer 2</button><br>
-              <button type="button" class="answerBtn">Answer 3</button><br>
-              <button type="button" class="answerBtn">Answer 4</button><br>
+            <div id="question-container">
+            <h2 id="question" >question</h2>
+              <button type="button" class="answerBtn1" value="a">Answer 1</button><br>
+              <button type="button" class="answerBtn2" value="b">Answer 2</button><br>
+              <button type="button" class="answerBtn3" value="c">Answer 3</button><br>
+              <button type="button" class="answerBtn4" value="d">Answer 4</button><br>
             </div>
+        </section> 
+        <section>
+          <h2>Highscores</h2>
+          <button class="button">go back</button>
+          <button class="button">Clear Highscores</button>
         </section>
      </main>
      <script src="Assets/JS/script.js"></script> 
